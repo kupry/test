@@ -24,7 +24,7 @@ body{
   border-radius: 12px;
   padding: 12px;
 }
-.input{
+#input{
     width: 100%;
     box-sizing: border-box;
     padding: 12px;
