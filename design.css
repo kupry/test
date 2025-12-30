@@ -30,8 +30,9 @@ body{
     padding: 12px;
     border-radius: 20px;
     border: 1px solid color-mix(in srgb, var(--tg-theme-hint-color) 35%, transparent);
-    background: #105934;
-    color: #105934;
+    background: var(--tg-theme-hint-color);
+    color: #ffff;
+    opacity: 0.5;
     outline: none;
 }
 
