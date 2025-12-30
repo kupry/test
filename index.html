@@ -32,6 +32,7 @@ tg.onEvent('themeChanged', () => {
             const text = document.getElementById('inputText').value;
             
             // Отправляем боту через mainButton или запрос
+            tg.close();
             tg.sendData(JSON.stringify({text: text}));
             tg.MainButton.setText('Отправлено!').show().onClick(() => tg.close());
         });
