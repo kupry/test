@@ -32,8 +32,8 @@ body{
     border-radius: 12px;
 
     /* прозрачность только у фона */
-    background-color: rgba(255, 255, 255, 0.1); /* 0..1: меньше = прозрачнее */
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.05); /* 0..1: меньше = прозрачнее */
+    border: 1px solid rgba(255, 255, 255, 0.05);
 
     color: var(--tg-theme-text-color);
     outline: none;
