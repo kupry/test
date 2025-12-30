@@ -27,14 +27,34 @@ body{
 #inputText{
     width: 100%;
     box-sizing: border-box;
-    padding: 12px;
-    border-radius: 20px;
-    border: 1px solid color-mix(in srgb, var(--tg-theme-hint-color) 35%, transparent);
-    background: var(--tg-theme-hint-color);
-    color: #ffff;
-    opacity: 0.5;
+    padding: 12px 14px;
+
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,.28);
+
+    /* стекло */
+    background: rgba(255,255,255,.10);
+    backdrop-filter: blur(14px) saturate(170%);
+    -webkit-backdrop-filter: blur(14px) saturate(170%);
+
+    /* читаемость */
+    color: var(--tg-theme-text-color);
     outline: none;
+
+    box-shadow:
+            0 10px 25px rgba(0,0,0,.22),
+            inset 0 1px 0 rgba(255,255,255,.18);
 }
+
+/* когда нажал (фокус) — сделать “подсветку” */
+#inputText:focus{
+    border-color: rgba(46,166,255,.75);
+    box-shadow:
+            0 10px 25px rgba(0,0,0,.22),
+            0 0 0 3px rgba(46,166,255,.22),
+            inset 0 1px 0 rgba(255,255,255,.18);
+}
+
 
 .hint{ color: var(--tg-theme-hint-color); font-size: 13px; }
 .btn{
