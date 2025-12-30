@@ -13,7 +13,7 @@ body{
 .main-text{
     display: flex;
     justify-content: center; /* по главной оси */
-    align-items: center;     /* по поперечной оси */
+    align-items: center;     /* по поперечной оwс1и */
 }
 
 .card{
