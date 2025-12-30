@@ -28,7 +28,7 @@ body{
     width: 100%;
     box-sizing: border-box;
     padding: 12px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid color-mix(in srgb, var(--tg-theme-hint-color) 35%, transparent);
     background: var(--tg-theme-bg-color);
     color: var(--tg-theme-text-color);
